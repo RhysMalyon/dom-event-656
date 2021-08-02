@@ -4,7 +4,7 @@
 // Select DOM elements
 // ////////
 
-// with its ID (allan)
+// with its ID (Sae)
 const allanImg = document.querySelector("#allan");
 // console.log(allanImg);
 
@@ -26,13 +26,13 @@ const cards = document.querySelectorAll(".card");
 // Modify the DOM
 // ////////
 
-// add an HTML element (Kyoro FC 🗼 in list)
+// add an HTML element (SafeSpaces FC 🗼)
 // console.log(ul);
 ul.insertAdjacentHTML(
   "beforeend", 
   `<li>Kyoro <em>FC</em> 🗼</li>`);
 
-// same but more complex (add Simon!!)
+// same but more complex (add Pierre!!)
 const billsTeam = document.querySelector("#bills ul");
 billsTeam.insertAdjacentHTML(
   "afterbegin",
@@ -62,7 +62,7 @@ const emailInput = document.querySelector("#email");
 // console.log(emailInput.value);
 emailInput.value = "yann@lewagon.org";
 
-// Read/Write the (inner) text and HTML content (FF BAIKU ⚽️ title)
+// Read/Write the (inner) text and HTML content (FF RenRaku ⚽️ title)
 const h3Baiku = document.querySelector("#ff-baiku > h3");
 console.log(h3Baiku.innerText);
 console.log(h3Baiku.innerHTML);
@@ -73,7 +73,7 @@ h3Baiku.innerHTML = "Hello <strong>#595</strong>";
 // Add event listeners
 // ////////
 
-// // 1. Select allan's picture
+// // 1. Select SAe's picture
 // const allan = document.querySelector("#allan");
 // // 2. Listen to a click
 // allan.addEventListener("click", (event) => {
